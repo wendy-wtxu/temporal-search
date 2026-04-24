@@ -4,7 +4,7 @@ A temporal-aware search enhancement skill for LLMs and AI Agents — making sear
 
 ## The Problem
 
-LLMs lack reliable temporal awareness in search scenarios. When a user asks about "League of Legends results", the model generates a search query without any year or season constraint, and the search engine returns SEO-heavy articles from years ago instead of this season's matches.
+LLMs often fail to account for time when generating search queries. When a user asks about "League of Legends results", the model generates a search query without any year or season constraint, and the search engine returns SEO-heavy articles from years ago instead of this season's matches.
 
 Common failure modes:
 - **Missing time anchor** — "recent match" could mean today or 3 years ago to the model
