@@ -1,4 +1,4 @@
-# temporal-search
+<img width="1065" height="224" alt="image" src="https://github.com/user-attachments/assets/3152be62-3b96-4b7e-86e0-f19945a41e85" /># temporal-search
 
 A temporal-aware search enhancement skill for LLMs and AI Agents — making search results land in the right time window.
 
@@ -35,6 +35,11 @@ Common failure modes:
 | Encyclopedia / Concepts | Low | "how does photosynthesis work" |
 
 ## Usage
+
+### npx skills
+```bash
+npx skills add wendy-wtxu/temporal-search
+```
 
 ### As a Claude Skill
 Place `SKILL.md` in your Claude Skills directory. The skill triggers automatically for time-sensitive queries.
@@ -146,6 +151,11 @@ MIT
 ---
 
 ## 使用方式
+
+### npx skills
+```bash
+npx skills add wendy-wtxu/temporal-search
+```
 
 ### 作为 Claude Skill 使用
 将 `SKILL.md` 放入 Claude Skills 目录中，技能会在检测到时间敏感问题时自动触发。
